@@ -1,0 +1,95 @@
+body{
+background-image: url(https://media.istockphoto.com/photos/teen-girls-facing-the-sunset-with-on-a-summer-evening-picture-id472367018?b=1&k=20&m=472367018&s=170667a&w=0&h=ozY_3RzRifHoX0aZrRWsj6o2EdO6ZbXowRaVRxUJ0KE=);
+background-position: top;
+background-size: cover ;
+background-color: aliceblue;
+background-repeat: no-repeat ;
+}
+#container{
+   display: flex;
+ flex-direction: column;
+ align-items: center;
+    background-color: #F4D19B;
+    width: 30%;
+    margin-top: 150px ;
+    padding: 20px;
+    border-radius: 70px 0 70px 0;
+}
+h3{
+    font-size: 20px;
+    font-family: 'Balsamiq Sans', cursive;
+}
+#guess{
+    font-size: 15px;
+    font-family: 'Balsamiq Sans', cursive;
+width: 40%;
+padding: 10px;
+border: none;
+}
+#btn{
+    background-color: #911F27;
+    font-size: 15px;
+    font-family: 'Balsamiq Sans', cursive;
+    border: oldlace;
+    color: rgb(255, 254, 254);
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    width: 40%;
+}
+@media all and (max-width:800px){
+    #container{
+         width: 50%;
+}
+h3{
+    font-size: 15px;
+}
+#guess{
+font-size: 15px;
+width: 40%;
+padding: 10px;
+}
+#btn{
+    padding: 10px;
+    width: 40%;
+}
+}
+@media all and (max-width:500px){
+    #container{
+         width: 50%;
+}
+h3{
+    font-size: 10px;
+}
+#guess{
+font-size: 10px;
+width: 40%;
+padding: 10px;
+}
+#btn{
+    padding: 10px;
+    width: 40%;
+    font-size: 10px;
+    margin-top: 10px;
+}
+}
+@media all and (max-width:300px){
+    #container{
+         width: 50%;
+}
+h3{
+    font-size: 10px;
+}
+#guess{
+font-size: 10px;
+width: 40%;
+padding: 10px;
+}
+#btn{
+    padding: 10px;
+    width: 40%;
+    font-size: 10px;
+    margin-top: 10px;
+}
+}
